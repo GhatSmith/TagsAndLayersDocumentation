@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f128b4b19698e541bf9855d8f40f217, type: 3}
+  m_Name: TagsAndLayersDocumentation
+  m_EditorClassIdentifier: 
+  tagsDocumentation:
+  - name: Untagged
+    description: Unity built in tag.
+  - name: Respawn
+    description: Unity built in tag.
+  - name: Finish
+    description: Unity built in tag.
+  - name: EditorOnly
+    description: Unity built in tag. An object tagged this will not appear in a build.
+  - name: MainCamera
+    description: Unity built in tag. An object tagged this will respond to Camera.main.
+  - name: Player
+    description: Unity built in tag.
+  - name: GameController
+    description: Unity built in tag.
+  sortingLayersDocumentation:
+  - name: Default
+    description: Unity built in sorting layer.
+  layersDocumentation:
+  - name: Default
+    description: Unity built in layer.
+  - name: TransparentFX
+    description: Unity built in layer. Lens flares will show through the collider
+      of an object on this layer.
+  - name: Ignore Raycast
+    description: Unity built in layer. An object on this layer will be ignored by
+      raycasts (including OnMouseOver, etc.).
+  - name: Water
+    description: Unity built in layer.
+  - name: UI
+    description: Unity built in layer.
+  - name: PostProcessing
+    description: 
